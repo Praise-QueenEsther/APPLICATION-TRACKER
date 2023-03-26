@@ -1,0 +1,152 @@
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
+@Component({
+  selector: 'about-me-modal',
+  template: `
+  <div class="Background-modal"></div>
+  <div class="genDiv">
+    <div class="textAbt">
+        <form action="">
+        <div class="textAbout ">
+            <p>About</p>
+        </div>
+        <div class="texAreaHead">
+            <div class="heading">
+            <app-quilling></app-quilling>
+            </div>
+            <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+           
+        </div>
+        <br>
+        <div class="btnAbout">
+            <button>Save Edit</button>
+        </div>
+    </form>
+    </div>
+</div>
+
+`,
+  styles:[`
+ 
+  .Background-modal{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+
+
+.genDiv{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 55vw;
+    background: #FFFFFF;
+ 
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+border-radius: 6px;
+padding: 36px 101px 35px;
+gap: 10px;
+z-index: 5000;
+position: absolute;
+left: 15%;
+top: 10%;
+}
+
+.texAreaHead{
+  border: 1px solid grey;
+    padding: 10px;
+    border-radius:6px;
+
+}
+
+.textAbt{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50wv;
+   
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50vw;
+    height: 56px;
+    border-radius:6px;
+    background: #FFFFFF;
+    box-shadow: 0px 9px 27px rgba(0, 0, 0, 0.07), 0px 3.75998px 11.28px rgba(0, 0, 0, 0.0503198),
+     0px 2.01027px 6.0308px rgba(0, 0, 0, 0.0417275), 0px 1.12694px 3.38082px rgba(0, 0, 0, 0.035),
+      0px 0.598509px 1.79553px rgba(0, 0, 0, 0.0282725), 0px 0.249053px 0.747159px rgba(0, 0, 0, 0.0196802);
+}
+
+
+textarea{
+    width: 50vw;
+    width: 50vw;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5E5873;
+    margin-top: 10px;
+    border: 1px solid grey;
+}
+
+.textAbout p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    color: #5E5873;
+}
+
+.btnAbout button{
+   
+    padding: 6px 10px;
+    gap: 10px;
+    background-color: #440F7C;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.366667px;
+    color: #FFFFFF;
+    border: none;
+    z-index:5000;
+    margin-bottom: 10px;
+
+}
+
+
+
+`]
+
+})
+
+export class  AboutMeCreatedComponent{
+    // aboutMeCreated=false;
+    
+
+    //    closeAboutMe(){
+    //     this. aboutMeCreated=!false;
+    //   } 
+    
+    //   onProductDesign(){
+    //     this.productCreated=!this.productCreated
+    //   }
+}

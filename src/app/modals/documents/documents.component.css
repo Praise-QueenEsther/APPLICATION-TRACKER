@@ -1,0 +1,126 @@
+/* :host{
+   
+    display:flex;
+    position:fixed;
+    background-color:rgba(0, 0, 1, 0.5);
+    right:0px;
+    top:0px;
+    height:100vh;
+    width:100vw;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+}
+
+.genCon{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  
+    box-shadow: 5px 5px 4px rgba(19, 19, 19, 0.2);
+    z-index: 5000;
+  background-color:white;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius:6px;
+} 
+
+
+.mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    width: 40vw;
+    
+
+}
+
+.genDocDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+}
+
+.firstPart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 28vw;
+}
+
+    .firstPart input{
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid #BDBDC7;
+    border-radius: 6px;
+    color: #5E5873
+    
+    
+    
+}
+
+.secPart{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8vw;
+}
+
+.file-icon{
+    
+background: #E6E9EC;
+border-radius: 5px;
+gap: 2px;
+font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    width: 10vw;
+    border-radius: 6px;
+    color: #5E5873;
+}
+
+.file-icon img{
+    Width:
+15.39px;
+Height:
+16.32px;
+}
+
+.document p{
+    text-align: left;
+    width: 112px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+
+    color: #5E5873
+}
+
+.btnDocu button{
+    width: 79px;
+    height: 30px;
+    background: #440F7C;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    border: none;
+    text-align: center;
+    letter-spacing: 0.366667px;
+    color: #FFFFFF; 
+}
+
+.btnDocu{
+    margin-bottom:10px
+} */

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footCon{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+    /* padding: 20px;
+    gap: 17px; */
+    /* text-align: center; */
+    width:90%;
+    margin: auto;
+    /* height: 64px; */
+    background: #440F7C;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    margin-top: 50px;
+}
+
+.footSecon{
+    display: flex;
+    width:90%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #440F7C;
+    border-radius: 6px;
+}
+
+.icons{
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: coral; */
+}
+
+.linkedlin-icon{
+    width: 1.2vw;
+    color: white;
+}
+
+.instagram-icon{
+    width: 1vw; 
+}
+
+.facebook,.twitter{
+    width: 1.2vw;
+}
+         
+
+.AllRight,.privacyPolicy {
+  
+    height: 24px;
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+
+
+}
+
+@media only screen and (max-width: 780px){
+    /* .footCon{
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+    
+        gap: 10px;
+        width:90%;
+   
+        margin: auto;
+     
+        background: #440F7C;
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+        border-radius: 6px;
+        margin-top: 50px;
+    } */
+
+  
+}

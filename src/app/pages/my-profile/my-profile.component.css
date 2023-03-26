@@ -1,0 +1,472 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.majorCon{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width:65vw ;
+ 
+   
+}
+
+
+
+.firstCon, .secondCon, .thirdCon, .forthDiv{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+
+width:65.5vw ;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+
+
+}
+
+
+
+.genDivBoth{
+    display: flex;
+    justify-content: space-between;
+    width:65.5vw ;
+    padding-left:8px ;
+    padding-right:8px ;
+}
+
+.firstDivIm{
+    display: flex;
+    flex-direction: column;
+}
+
+.faceDetails{
+    display: flex;
+    gap: 10px;
+}
+
+.editInfo{
+    display: flex;
+    justify-content: space-between;
+    padding-left:20px ;
+    padding-right:20px ;
+    width:65.5vw ;
+    color: #D62196;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.editInfo img{
+    Width:
+    14.27px;
+    Height:
+    14.27px;
+}
+
+.profileInfo{ 
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E5873
+}
+
+.profileSm{
+    width: 103px;
+    height: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5E5873;
+}
+
+.firstDivIm img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+
+}
+
+.genWriteup{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.question p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5E5873;
+}
+
+.answer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5E5873;
+}
+
+.btnLook{
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+}
+
+.btnLookFirst,.btnLookSecond{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* width: 150px; */
+    /* background-color: #D22A90; */
+  
+}
+
+.btnLookFirst p{
+    padding: 1px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #5E5873;
+}
+
+.btnLookSecond p{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #5E5873;
+}
+.skiilShown{
+    display: flex;
+    gap: 3px;
+
+    
+}
+
+.skiilShown p{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 14px;
+    border: 1px solid #D62196;
+    border-radius: 4px;
+    color: #D62196;
+
+}
+
+.aboutMeWriting{
+    text-align: left;
+    width:63vw ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    padding-right: 20px;
+    color: #5E5873;
+}
+
+.lorem{
+    width: 672px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5E5873;
+    width:63vw ;
+}
+
+.ABC{
+    margin-bottom: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5E5873
+}
+
+.proTitleCon{
+    width:63vw ;
+}
+
+.ABClor{ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5E5873;
+}
+
+.proLink{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #D22A90;
+}
+
+.eduDoc{
+    display: flex;
+    gap: 1.5vw;
+
+}
+
+.edu{
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+}
+
+.doc{
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+}
+
+.edutInfo{
+    display: flex;
+    justify-content: space-between;
+    padding-left:20px ;
+    padding-right:20px ;
+    width: 32vw;
+    color: #D62196;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.edutInfo img{
+    Width:
+    14.27px;
+    Height:
+    14.27px;
+}
+
+.eduAtt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5E5873
+}
+
+.bscInfo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #5E5873;
+}
+
+.eduInfoBoth{
+    width: 32vw;
+    padding-left:20px ;
+    padding-right:20px ; 
+}
+
+.eduAtt span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #D22A90;
+}
+
+.btnAboutMe{
+    position:absolute;
+    top:1vh;
+    z-index: 100;
+    margin-right: 5vw;
+    height: 30px;
+    width: 30px;
+    border-radius:30px ;
+    border: none;
+    cursor: pointer;
+    /* text-align: left; */
+}
+
+.btnProject button{
+    position:absolute;
+    top:1vh;
+    z-index: 100;
+    /* margin-right: 5vw; */
+    /* margin-top: 50vh; */
+    height: 30px;
+    width: 30px;
+    border-radius:30px ;
+    border: none;
+    cursor: pointer;
+    /* background-color: red; */
+    /* transform: translateY(-20vh); */
+}
+
+/* .btnProject{
+    margin-top: 20vh;
+} */
+
+.btnProduct{
+    position:absolute;
+    top:-1vh;
+    /* top: -1.1; */
+    z-index: 100;
+    margin-right: 5vw;
+ 
+    height: 30px;
+    width: 30px;
+    border-radius:30px ;
+    border: none;
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+.proModalBtn{
+    display: flex;
+    
+}
+
+@media only screen and (max-width: 780px) {
+    .firstCon{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        /* padding: 20px; */
+        width:65.5vw ;
+        /* background: #FFFFFF; */
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        gap: 20px;
+        
+        
+        }
+
+        .majorCon{
+            flex-direction: column;
+        }
+
+        .divText{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            gap: 3px;
+            margin-top: 20px;
+            /* background-color: orangered; */
+            
+        }
+        
+        .divTop, .divBottom{
+            display: flex;
+            font-family: 'Poppins';
+            flex-direction: column;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 7px;
+            line-height: 14px;
+            gap: 3px;
+            color: #D62196;
+            /* background-color: blue; */
+         
+        
+          
+          
+        }
+
+        /* .location{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            gap: 3px;
+            width: 155px;
+            height: 28px;
+            background: #F7D3EA;
+            border-radius: 4px;
+        
+        
+        
+        } */
+
+        .location-price{
+            flex-direction: column;
+        }
+
+        .genPro{
+            flex-direction: column;
+            /* background-color: #D62196; */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Job-role{
+            display: contents;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .senior{
+            text-align: center;
+        }
+
+        .btnLookFirst,.btnLookSecond{
+            display: flex;
+            flex-direction: column;
+            
+            /* flex-wrap: wrap; */
+            /* width: 150px; */
+            /* background-color: #D22A90; */
+          
+        }
+
+        .skiilShown{
+            display: flex;
+            gap: 3px;
+            flex-wrap: wrap;
+        
+            
+        }
+}
+

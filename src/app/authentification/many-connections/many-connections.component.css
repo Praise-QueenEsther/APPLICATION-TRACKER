@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Alljobs{
+    padding-top: 30px;
+}
+
+.application{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+
+.application-tests {
+  
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5E5873;
+
+}
+
+
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 41px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #D62196;
+    
+}
+.logout img{
+    width: 13px;
+    color: #D62196;
+}
+.job-body{
+    display: flex;
+    gap: 1vw;
+  
+}

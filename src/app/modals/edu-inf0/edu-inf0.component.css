@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.genCon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+  
+}
+
+.majorDiv{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:33.3%;
+  
+}
+
+.GeninputDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    
+}
+
+.eduInfo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 4px;
+
+
+
+color: #5E5873;
+}
+
+.firstSet,.secondSet{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.firstInput{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+
+}
+
+.firstInput input{
+    width: 20vw;
+    height: 5vh;
+    border: 1px solid #BDBDC7;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+.firstInput input::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left:3px ;
+    color: #5E5873;
+}
+
+.SaveEd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 127%;
+    margin-top: 35px;;
+ 
+}
+
+.save{
+    padding: 6px;
+
+
+    width: 79px;
+    height: 30px;
+
+    background: #440F7C;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+
+
+    text-align: center;
+    letter-spacing: 0.366667px;
+
+    color: #FFFFFF;
+}
+
+.edit{
+    padding: 6px ;
+
+
+    width: 79px;
+    height: 30px;
+    background: #F7D3EA;
+    border: 1px solid #D62196;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.366667px;
+    color: #D62196;
+}

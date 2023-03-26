@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.signup-container{
+    width: 30vw;
+    background: #FFFFFF;
+    opacity: 0.98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.signup-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    color: #5E5873;
+
+}
+.label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E5873;
+}
+.signup-input{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    margin-top: .5rem;
+    box-shadow: 0 0 2px gray;
+}
+
+.btnCon{
+    display: flex;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-btn{
+    width: 169px;
+    padding: 10px;
+    background-color: #440F7C;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   text-align: center;
+    margin-top: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+
+}
+.account{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+
+
+color: #5E5873
+}
+
+.noAccount{
+    color: #D62196;
+}
+
+.account a{
+    text-decoration: none;
+}
+
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
+
+.spanText{
+    color: red;
+}

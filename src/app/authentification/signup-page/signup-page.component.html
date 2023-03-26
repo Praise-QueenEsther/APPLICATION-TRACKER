@@ -1,0 +1,40 @@
+<main class="signup">
+    <div class="signup-container">
+
+        <div class="error-alert">
+            <p>{{error}}</p>
+        </div>
+
+        <div *ngIf="isLoading" style="text-align: center;">
+            <app-loading-spinner></app-loading-spinner> 
+        </div>
+      
+        
+        <form (ngSubmit)="onSubmit(f)" #f="ngForm" *ngIf="!isLoading">
+            <p class="signup-text">Sign Up</p><br><br>
+            <label for="" class="label">Email Address
+                <input type="email" class="signup-input" ngModel name="email" required email #email="ngModel">
+                <span class="spanText" *ngIf="!email.valid && email.touched">Please enter a valid email</span><br>
+            </label><br>
+
+            <label for="" class="label">Password
+                <input type="password" class="signup-input" ngModel name="password" required password #password="ngModel" minlength="6">
+                <span class="spanText" *ngIf="!password.valid && password.touched">Please enter your password</span><br><br>
+            </label>
+
+            <label for="" class="label" >Confirm Password
+                <input type="password" class="signup-input" ngModel name="confirmPassword" required confirmPassword #confirmPassword="ngModel" minlength="6">
+                <span class="spanText" *ngIf="!confirmPassword.valid && confirmPassword.touched">Please confirm your password</span>
+            </label>
+            
+            <div class="btnCon">
+            <button class="signup-btn" type="submit" [disabled]="!f.valid">Sign Up</button><br><br>
+            </div>
+            <br>
+            <br>
+            <p class="account">Have an account?  <a routerLink=""><span class="noAccount"> Sign in</span></a> </p>
+        </form>
+    </div>
+</main>
+
+

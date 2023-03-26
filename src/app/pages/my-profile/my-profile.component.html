@@ -1,0 +1,206 @@
+<section class="majorCon">
+    <div class="firstCon">
+        <div class="editInfo">
+            <p class="profileInfo">Information</p>
+          <a (click)=" onProductDesign()"><p><img src="../../../assets/pen.png" alt="">edit</p></a>
+        </div>
+
+        <div class="proModalBtn" >
+            <button class="btnProduct" *ngIf="productCreated" (click)="closeProductDesign()">X</button>
+             <product-design-modal *ngIf="productCreated"></product-design-modal>
+            
+         </div>
+         
+     
+
+        <div class="genDivBoth">
+                <div class="faceDetails">
+                    <div class="firstDivIm">
+                        <img src="../../../assets/profile pic.png" alt="">
+                        <p class="profileInfo">Ronke Bosola</p>
+                        <p class="profileSm">Product Designer</p>
+                    </div>
+                    <div class="genWriteup">
+                        <div class="question">
+                            <p>Phone:</p>
+                            <p>Email:</p>
+                            <p>Birthday:</p>
+                            <p>Address</p>
+                            <p>Gender</p>
+                            <p>Location</p>
+                        </div>
+                        <div class="answer">
+                            <p>08012345678</p>
+                            <p>ronkebosola@example.com</p>
+                            <p>24th, June 1990</p>
+                            <p>16, Sunday Monday Ave, Ikeja Lagos, Nigeria</p>
+                            <p>Female</p>
+                            <p> Gbagada Lagos NGA</p>
+                        </div>
+                </div>
+
+            </div>
+            <div class="btnLook">
+                <div class="btnLookFirst">
+                    <p>Skills</p>
+                    <div class="skiilShown">
+                        <p>Illustrator</p>
+                        <p>Photoshop</p>
+                        <p>Figma</p>
+                        <p class="adobe">Adobe Illustrator</p>
+                        <p>Sketch</p>
+                    </div>
+                    <br>
+
+                    <div class="btnLookSecond">
+                        <p>Tools</p>
+                        <div class="skiilShown">
+                            <p>Illustrator</p>
+                            <p>Photoshop</p>
+                            <p>Figma</p>
+                            <p class="adobe">Adobe Illustrator</p>
+                            <p>Sketch</p>
+                        </div>
+    
+                    </div>
+
+                </div>
+            </div>
+
+    
+        </div>
+     
+    </div>
+    <div class="secondCon">
+        <div class="editInfo">
+            <p class="profileInfo">About Me</p>
+            <a (click)="onAboutMe()"><p><img src="../../../assets/pen.png" alt="">edit</p></a>  
+        </div>
+        <div >
+            <button class="btnAboutMe" *ngIf="aboutMeCreated" (click)="closeAboutMe()">X</button>
+            <about-me-modal *ngIf="aboutMeCreated"></about-me-modal>
+         </div>
+    
+            
+        <div class="aboutMeWriting">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias dolore voluptas accusantium, animi
+             magnam quaerat 
+            saepe facilis soluta, numquam sunt omnis dolores perspiciatis quibusdam 
+            perferendis. Quae deserunt nesciunt quam dolore.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Tempore saepe culpa eligendi minus veritatis iusto. Error dignissimos magnam commodi vero est, dolores 
+            fugit magni iure, quasi ullam corrupti? Sequi architecto sunt magnam quaerat omnis sit placeat dolore facere id esse quas, nostrum odio, nulla soluta 
+            aperiam excepturi. Alias est corrupti iure dignissimos dicta fuga rem ullam facilis mollitia sed, reiciendis tenetur illum nemo, quis fugit consequuntur enim distinctio 
+            impedit exercitationem sunt! Fuga minima aliquid placeat reiciendis nostrum corrupti totam et!
+        </div>
+        
+    </div>
+    <div class="thirdCon">
+        <div class="editInfo">
+            <p class="profileInfo">Work Experience</p>
+            <p><img src="../../../assets/pen.png" alt="">edit</p> 
+        </div>
+
+       
+        <div class="lorem">
+            <p class="ABC">Product Designer &nbsp;&nbsp; ABC Technologies &nbsp;&nbsp; 2000-2003</p>
+            <p  class="dot">-<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quidem minima qui illum rem.</span></p>
+                <p  class="dot">- <span> Ipsum dolor sit amet consectetur adipisicing elit. Soluta, aspernatur voluptate.</span></p>
+                <p class="dot">- <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span></p>
+                <p  class="dot">- <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, animi!</span></p>
+                <p  class="dot">- <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quidem minima qui illum rem.</span></p>
+                <p  class="dot">- <span> Ipsum dolor sit amet consectetur adipisicing elit. Soluta, aspernatur voluptate.</span></p>
+                <p  class="dot">- <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span></p>
+                <p  class="dot">- <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, animi!</span></p>
+                <p  class="dot">- <span>Lorem ipsum, dolor sit amet consectetur adipisicing.</span></p>
+                <p  class="dot">- <span> ipsum, dolor sit amet consectetur adipisicing.</span></p>
+                <p  class="dot">- <span>Lorem ipsum, dolor sit amet consectetur adipisicing.</span></p>
+        </div>
+    </div>
+    <div class="forthDiv">
+        <div class="editInfo">
+            <p class="profileInfo">Projects</p>
+          <a (click)="onProjects()"> <p ><img src="../../../assets/pen.png" alt="">edit</p></a> 
+        </div>
+        <div class="btnProject">
+            <button  *ngIf="projectsCreated" (click)=" closeProject()">X</button>
+            <project-modal *ngIf="projectsCreated"></project-modal>
+         </div>
+        <!-- <custom-modal>
+            <project-modal *ngIf="projectsCreated"></project-modal>
+        </custom-modal> -->
+        <div class="proTitleCon">
+            <div class="proTitle">
+                <p class="ABC">Product Title</p>
+                <p class="ABClor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quidem minima qui illum rem.</p>
+                
+                <p  class="proLink">Project link</p>
+            </div>
+            <br>
+            <div class="proTitle">
+                <p class="ABC">Product Title</p>
+                <p class="ABClor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quidem minima qui illum rem.</p>
+                
+                <p  class="proLink">Project link</p>
+            </div>
+            <br>
+            <div class="proTitle">
+                <p class="ABC">Product Title</p>
+                <p class="ABClor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quidem minima qui illum rem.</p>
+                
+                <p  class="proLink">Project link</p>
+            </div>
+        </div>
+    </div>
+    <div class="eduDoc">
+        <div class="edu">
+            <div class="edutInfo">
+                <p class="profileInfo">Education Information</p>
+                <a (click)="onEdit()"> <p><img src="../../../assets/pen.png" alt="">edit</p> </a>
+            </div>
+
+            <div >
+                <button class="btnAboutMe" *ngIf="editCreated" (click)="close()">X</button>
+                <profile-modal *ngIf="editCreated"></profile-modal>
+            </div>
+            <!-- <custom-modal>
+                <profile-modal *ngIf="editCreated"></profile-modal>
+            </custom-modal> -->
+                <div class="eduInfoBoth">
+                    <p class="eduAtt">International College of Design and Coding-Undergraduate</p>
+                    <p class="bscInfo">Bsc Computer Science</p>
+                    <p class="bscInfo">2000-2003</p>
+                </div>
+                <br>
+                <div class="eduInfoBoth">
+                    <p class="eduAtt">International College of Design and Coding-Post graduate</p>
+                    <p class="bscInfo">Msc Computer Science</p>
+                    <p class="bscInfo">2004-2005</p>
+                </div>
+        </div>
+        <div class="doc">
+            <div class="edutInfo">
+                <p class="profileInfo">Documents</p>
+                <a (click)=" onDocuments()"><p><img src="../../../assets/pen.png" alt="">edit</p>  </a> 
+            </div>
+            
+            <div >
+                <button class="btnAboutMe" *ngIf="documentsCreated" (click)="closeDocuments()">X</button>
+                <documents-modal *ngIf="documentsCreated"></documents-modal>
+             </div>
+               
+       
+
+            <div class="eduInfoBoth">
+                <p class="eduAtt">Documents Name &nbsp;<span>view</span></p>
+                <p class="eduAtt">Documents Name  &nbsp;<span>view</span></p>
+                <p class="eduAtt">Documents Name  &nbsp;<span>view</span></p>
+                <p class="eduAtt">Documents Name  &nbsp;<span>view</span></p>
+                <p class="eduAtt">Documents Name  &nbsp;<span>view</span></p>
+
+            </div>
+
+        </div>
+    </div>
+  
+</section>

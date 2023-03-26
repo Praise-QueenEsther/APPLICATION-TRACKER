@@ -1,0 +1,39 @@
+
+
+<main class="signup">
+    <div class="error-alert">
+        <p>{{error}}</p>
+    </div>
+
+    <div *ngIf="isLoading" style="text-align: center;">
+        <app-loading-spinner></app-loading-spinner> 
+    </div>
+    <div class="signup-container">
+       
+        <form (ngSubmit)="onSubmit(f)" #f="ngForm" *ngIf="!isLoading">
+            <p class="signup-text">Application Tracker</p><br>
+            <p class="toAccess">Login to access and manage your job applications</p>
+            <br><br>
+            <label for="" class="label">Email Address
+            <input type="email" class="signup-input" ngModel name="email" required email #email="ngModel">
+            <span class="spanText" *ngIf="!email.valid && email.touched">Please enter a valid email</span><br>
+        </label><br>
+            <label for="" class="label">Password
+            <input type="password" class="signup-input" ngModel name="password" required password #password="ngModel" minlength="6">
+            <span class="spanText" *ngIf="!password.valid && password.touched">Please enter your password</span>
+            <br><br>
+        </label>
+         
+            <div class="btnCon">
+            <button type="submit" class="signup-btn" [disabled]="!f.valid">Login</button><br><br>
+            </div>
+            <br>
+            <br>
+            <p class="forgetPass"><a routerLink="/forgotPassword">forgot password?</a></p>
+            <br>
+            <p class="account">Don't have an account? <a routerLink="/signup"><span class="noAccount" >Sign up</span></a>  </p>
+        </form>
+    </div>
+</main>
+
+

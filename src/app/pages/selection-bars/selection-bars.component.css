@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.genConSearch{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+    transform: translateY(-40px);
+ 
+}
+.searchNumber{
+    width: 68px;
+    height: 32px;
+    cursor: pointer; 
+    box-sizing: border-box;
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #DEE2E6;
+
+   
+}
+.searchOrdely{
+    width:95px;
+    height: 32px;
+    color: #5E5873;
+    cursor: pointer;
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+
+
+
+color: #DEE2E6;
+}
+
+.searchCon img{
+     width:16.27px;
+     height:16px;
+   
+   
+}
+.searchCon{
+    width:
+    498px
+    ;
+    height: 
+    32px;
+    border-radius: 6px;
+    border: 1px solid #d4d4d4;
+    display: flex;
+    gap: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 5px;
+    color: #DEE2E6;
+   
+   
+  
+}
+
+
+
+
+.Category{
+    width: 134.71px
+    ;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #DEE2E6;
+
+   
+}
+
+.Rating{
+    Width:
+    123.42px;
+    height: 32px;
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #DEE2E6;
+}
+
+.tag{
+    Width:
+    102.59px;
+    Height:
+    32px;
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #DEE2E6
+}
+
+
+.filter-button{
+    Width:
+    69px;
+    Height:
+    32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 20px;
+    gap: 10px;
+    border-radius: 6px;
+    width: 69px;
+    height: 32px;
+    border: none;
+    background: #DACFE5;
+    border-radius: 6px;
+}

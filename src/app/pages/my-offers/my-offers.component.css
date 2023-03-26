@@ -1,0 +1,242 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.majorCon{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width:65vw ;
+   
+   
+}
+
+
+
+.firstCon{
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 20px;
+width:65.5vw ;
+background: #FFFFFF;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+
+
+}
+
+.genPro{
+    display: flex;
+    gap: 5px;
+}
+.product-icon img{
+    width: 35px;
+    height: 35px;
+}
+
+
+
+.ABC{
+    width: 73px;
+    height: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    color: #5E5873;
+}
+
+
+.senior{
+    width: 208px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5E5873;
+}
+
+
+.days{
+    font-size: 8px;
+}
+
+.divText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
+    gap: 3px;
+    
+
+}
+
+.divTop, .divBottom{
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 14px;
+    gap: 3px;
+    color: #D62196;
+ 
+
+  
+  
+}
+
+
+
+.testApp{
+    border: 1px solid #D62196;
+    border-radius: 4px;
+    padding: 0.8px;
+}
+
+.location{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 3px;
+    width: 155px;
+    height: 28px;
+    background: #F7D3EA;
+    border-radius: 4px;
+
+
+
+}
+
+.location img{
+   
+    width:12px;
+    height: 12px;
+}
+
+.location-text {
+
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 3px;
+    width: 108px;
+    height: 28px;
+    background: #F7D3EA;
+    border-radius: 4px;
+ 
+    
+}
+
+.location-price{
+    display: flex;
+    align-items: center;
+    height: 28px;
+    gap: 10px;
+    font-size: 12px;
+    color: #D62196;
+
+}
+
+@media only screen and (max-width: 780px) {
+    .firstCon{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        /* padding: 20px; */
+        width:65.5vw ;
+        /* background: #FFFFFF; */
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        gap: 20px;
+        
+        
+        }
+
+        .majorCon{
+            flex-direction: column;
+        }
+
+        .divText{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            gap: 3px;
+            margin-top: 20px;
+            /* background-color: orangered; */
+            
+        }
+        
+        .divTop, .divBottom{
+            display: flex;
+            font-family: 'Poppins';
+            flex-direction: column;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 7px;
+            line-height: 14px;
+            gap: 3px;
+            color: #D62196;
+            /* background-color: blue; */
+         
+        
+          
+          
+        }
+
+        /* .location{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            gap: 3px;
+            width: 155px;
+            height: 28px;
+            background: #F7D3EA;
+            border-radius: 4px;
+        
+        
+        
+        } */
+
+        .location-price{
+            flex-direction: column;
+        }
+
+        .genPro{
+            flex-direction: column;
+            /* background-color: #D62196; */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Job-role{
+            display: contents;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .senior{
+            text-align: center;
+        }
+}
+
